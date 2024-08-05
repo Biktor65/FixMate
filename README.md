@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# Product Backlog para la Plataforma
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Historias de Usuario
+Registro y Gestión de Usuarios
 
-## Available Scripts
+Como usuario, quiero registrarme en la plataforma para poder solicitar servicios.
+Como administrador, quiero gestionar usuarios y servicios para mantener la plataforma organizada.
+Solicitud y Gestión de Servicios
 
-In the project directory, you can run:
+Como usuario, quiero solicitar un servicio de plomería para resolver problemas de mi hogar.
+Como usuario, quiero recibir cotizaciones para un servicio antes de tomar una decisión.
+Como profesional, quiero crear mi perfil con mis habilidades para atraer clientes.
+Calificaciones y Reseñas
 
-### `npm start`
+Como usuario, quiero calificar el servicio recibido para ayudar a otros usuarios a tomar decisiones informadas.
+Notificaciones y Recordatorios
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Como usuario, quiero recibir notificaciones y recordatorios del mantenimiento programado para no olvidarme de las citas.
+Pago de Servicios
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Como usuario, quiero pagar por el servicio desde la app para mayor comodidad.
+Backlog Detallado
+Registro y Gestión de Usuarios
 
-### `npm test`
+Historia de Usuario: Como usuario, quiero registrarme en la plataforma para poder solicitar servicios.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Tareas:
+Diseño del formulario de registro.
+Implementación del backend para la creación de usuarios.
+Validación de datos de usuario.
+Criterios de Aceptación:
+El usuario puede registrarse con un correo electrónico y contraseña.
+El sistema valida los datos de entrada y muestra errores si son incorrectos.
+Historia de Usuario: Como administrador, quiero gestionar usuarios y servicios para mantener la plataforma organizada.
 
-### `npm run build`
+Tareas:
+Creación del panel de administración.
+Funcionalidades para editar y eliminar usuarios.
+Gestión de servicios disponibles.
+Criterios de Aceptación:
+El administrador puede ver una lista de usuarios y servicios.
+El administrador puede editar y eliminar usuarios y servicios.
+Solicitud y Gestión de Servicios
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Historia de Usuario: Como usuario, quiero solicitar un servicio de plomería para resolver problemas de mi hogar.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Tareas:
+Diseño del formulario de solicitud de servicio.
+Implementación del backend para gestionar solicitudes.
+Notificaciones a los profesionales disponibles.
+Criterios de Aceptación:
+El usuario puede seleccionar el tipo de servicio y proporcionar detalles.
+La solicitud se envía a los profesionales disponibles.
+Historia de Usuario: Como usuario, quiero recibir cotizaciones para un servicio antes de tomar una decisión.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Tareas:
+Desarrollo de la funcionalidad para enviar cotizaciones.
+Diseño de la interfaz para mostrar cotizaciones recibidas.
+Criterios de Aceptación:
+El usuario recibe múltiples cotizaciones de diferentes profesionales.
+Las cotizaciones incluyen precio estimado y detalles del servicio.
+Historia de Usuario: Como profesional, quiero crear mi perfil con mis habilidades para atraer clientes.
 
-### `npm run eject`
+Tareas:
+Diseño del formulario de perfil para profesionales.
+Implementación del backend para almacenar perfiles.
+Criterios de Aceptación:
+El profesional puede crear y editar su perfil con información detallada.
+Los usuarios pueden ver los perfiles de los profesionales al solicitar servicios.
+Calificaciones y Reseñas
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Historia de Usuario: Como usuario, quiero calificar el servicio recibido para ayudar a otros usuarios a tomar decisiones informadas.
+Tareas:
+Implementación del sistema de calificaciones.
+Diseño de la interfaz para dejar y ver reseñas.
+Criterios de Aceptación:
+El usuario puede calificar el servicio con una puntuación y dejar comentarios.
+Las calificaciones y reseñas son visibles para otros usuarios.
+Notificaciones y Recordatorios
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Historia de Usuario: Como usuario, quiero recibir notificaciones y recordatorios del mantenimiento programado para no olvidarme de las citas.
+Tareas:
+Implementación del sistema de notificaciones.
+Configuración de recordatorios automáticos.
+Criterios de Aceptación:
+El usuario recibe notificaciones antes de la cita programada.
+Las notificaciones incluyen detalles del servicio y el profesional asignado.
